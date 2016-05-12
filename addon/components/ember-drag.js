@@ -1,8 +1,6 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-    click : function(){
-		},
 		fixPos: function (a, l1, l2) {
 			if (a < l1) return l1;
 			if (a > l1 && a < l2) return a;
